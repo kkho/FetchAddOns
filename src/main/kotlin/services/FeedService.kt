@@ -6,7 +6,7 @@ import org.navtest.models.WeekStats
 import java.time.ZonedDateTime
 import java.time.temporal.WeekFields
 
-public interface FeedService {
+interface FeedService {
     fun getFeedByModifiedSince(lastModifiedSince: ZonedDateTime): FeedPage?
     fun getFeedById(id: String): FeedPage?
     fun extractAndPrintAddOnsResult(feedItems: List<FeedItem>?, weekFields: WeekFields): List<WeekStats>?

@@ -7,8 +7,6 @@ import org.navtest.services.FeedItemService
 import java.time.LocalDate
 import java.time.ZoneOffset
 import java.time.ZonedDateTime
-import java.time.temporal.WeekFields
-import java.util.*
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.

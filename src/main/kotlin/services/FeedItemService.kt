@@ -13,7 +13,7 @@ import java.time.format.DateTimeFormatter
 import java.time.temporal.WeekFields
 
 
-public class FeedItemService(private val client: OkHttpClient, private val bearerToken: String) : FeedService {
+class FeedItemService(private val client: OkHttpClient, private val bearerToken: String) : FeedService {
     companion object {
         private val gson: Gson = GsonBuilder()
             .setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES)
