@@ -8,6 +8,8 @@ Output should be pretty-printed JSON on the command line.
 ## Solution
 OBS!
 
+public key used: https://pam-stilling-feed.nav.no/api/publicToken
+
 In case where the week number splits in mid year i.e 31st of December 2024 is in Tuesday and 1st of January 2025 is on Wednesday, we should handle the case where it will be week number 53 instead of 52.
 
 - Implemented in Kotlin using OkHttp for Http requests and Gson for JSON parsing.
